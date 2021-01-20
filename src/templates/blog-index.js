@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 import PostCard from "../components/postCard"
 
 import "../styles/style.css"
+import { Helmet } from "react-helmet"
 
 class BlogIndexTemplate extends React.Component {
   render() {
@@ -22,6 +23,9 @@ class BlogIndexTemplate extends React.Component {
     return (
       <Layout title={siteTitle} description={siteDescription}>
         <SEO title="cxsmxs" />
+        <Helmet meta={[
+          { name='naver-site-verification', content='515e8fffc53ab4f525cad4518f0d63795799f74d' }
+        ]} />
         {posts.map(({ node }) => {
           return (
             <PostCard
