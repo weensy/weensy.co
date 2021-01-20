@@ -22,7 +22,7 @@ class BlogIndexTemplate extends React.Component {
         
     return (
       <Layout title={siteTitle} description={siteDescription}>
-        <SEO title="cxsmxs" />
+        <SEO title="CXSMXS" />
         <Helmet meta={[
           { name:'naver-site-verification', content:'515e8fffc53ab4f525cad4518f0d63795799f74d' }
         ]} />
