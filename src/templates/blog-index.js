@@ -6,7 +6,6 @@ import SEO from "../components/seo"
 import PostCard from "../components/postCard"
 
 import "../styles/style.css"
-import { Helmet } from "react-helmet"
 
 class BlogIndexTemplate extends React.Component {
   render() {
