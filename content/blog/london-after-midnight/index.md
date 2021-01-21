@@ -39,7 +39,7 @@ _First time with Gatsby? Take a look on the [official and community-created star
 
     Use `npx` and the Gatsby CLI to create a new project
 
-    ```sh
+    ```shell
     # create a new Gatsby site using the blog starter
     npx gatsby new my-awesome-portfolio https://github.com/vaporwavy/gatsby-london-after-midnight
     ```
@@ -48,7 +48,7 @@ _First time with Gatsby? Take a look on the [official and community-created star
 
     Navigate into your new site’s directory and start it up.
 
-    ```sh
+    ```shell
     cd my-awesome-portfolio/
     gatsby develop
     ```
