@@ -15,7 +15,7 @@ The best typing website. A minimalistic typing test.
 
 ### SpeedCoder
 ---
-Online Typing Practice for Programmers.
+Online typing practice for Programmers.
 <div style="text-align:center;">
 <a href="https://www.speedcoder.net" target="_blank">https://www.speedcoder.net</a>
 </div>
