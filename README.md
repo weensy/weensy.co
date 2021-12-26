@@ -1,3 +1,3 @@
-<h2 align="center">This repository is for my personal blog.</h1>
+# This repository is for my personal blog
 
-**Blog: [cxsmxs](https://cxsmxs.com)**
+**Blog: [₩€€₦$¥](https://weensy.co)**
