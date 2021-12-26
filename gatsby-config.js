@@ -6,10 +6,10 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `CXSMXS`,
-    author: `₩€€₦$¥`,
+    title: `₩€€₦$¥`,
+    author: `Weensy Kim`,
     description: `An essay by a Korean developer living in Japan`,
-    siteUrl: `https://cxsmxs.com/`,
+    siteUrl: `https://weensy.co/`,
     social: {
     },
   },
@@ -70,8 +70,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `cxsmxs`,
-        short_name: `cxsmxs`,
+        name: `₩€€₦$¥`,
+        short_name: `₩€€₦$¥`,
         start_url: `/`,
         display: `minimal-ui`,
         icon: `content/assets/icon.png`,
@@ -79,6 +79,5 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
-    'gatsby-plugin-dark-mode',
   ],
 }

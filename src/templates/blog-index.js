@@ -21,7 +21,7 @@ class BlogIndexTemplate extends React.Component {
         
     return (
       <Layout title={siteTitle} description={siteDescription}>
-        <SEO title="CXSMXS" />
+        <SEO title="Posts" />
         {posts.map(({ node }) => {
           return (
             <PostCard
