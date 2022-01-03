@@ -22,7 +22,7 @@ class Layout extends Component {
             <ul className="header-nav">
               <li><Link to={`/posts`}>Posts</Link></li>
               <li><Link to={`/tags`}>Tags</Link></li>
-              <li><Link to={`/posts`}>Series</Link></li>
+              <li><Link to={`/series`}>Series</Link></li>
             </ul>
           </div>
         </div>
