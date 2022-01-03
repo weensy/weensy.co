@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
+import { Link } from "gatsby";
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -13,12 +14,14 @@ const Index = ({ data }) => {
   return (
     <Layout title={siteTitle} description={siteDescription}>
       <SEO title="₩€€₦$¥"/>
-      <div className="bio-card">
-        <h1 className="bio-name">Weensy Kim</h1>
-        <h6 className="bio-info">self-taught problem solver 💡</h6>
-        <h6 className="bio-info">open-source developer 💻</h6>
-        <h6 className="bio-info">keyboard lover 💜</h6>
-      </div>
+      <Link className="bio-link" to={`/about`}>
+        <div className="bio-card">
+          <h1 className="bio-name">Weensy Kim</h1>
+          <h6 className="bio-info">self-taught problem solver 💡</h6>
+          <h6 className="bio-info">open-source developer 💻</h6>
+          <h6 className="bio-info">keyboard lover 💜</h6>
+        </div>
+      </Link>
       <article>
         {/* <section style={{textAlign: "center"}}> */}
         <section>
