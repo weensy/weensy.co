@@ -56,7 +56,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     // Create blog index per 5 pages.
     index % 5 === 0 && createPage({
-      path: index === 0 ? `/` :`/${index / 5 + 1}`,
+      path: index === 0 ? `/posts/` :`/posts/${index / 5 + 1}`,
       component: blogIndex,
       context: {
         index: index,
