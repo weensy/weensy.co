@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 :root{
   overflow-y: scroll;
   
   /* Fonts */
-  --font-title: 'Playfair Display', serif;
+  --font-title: 'Pacifico', monospace;
   --font-sans-serif: 'Noto Sans KR', sans-serif;
   --font-serif: serif;
   --font-mono: 'IBM Plex Mono', monospace;
@@ -16,6 +15,26 @@
   --font-medium: 500;
   --font-bold: 700;
   --font-heavy: 900;
+
+  --color-bg: rgb(28, 28, 30);
+  --color-font: rgb(255, 255, 255);
+  --color-postcard: rgb(54, 51, 50);
+
+  --color-blue: rgb(10, 132, 255);
+  --color-green: rgb(48, 209, 88);
+  --color-indigo: rgb(94, 92, 230);
+  --color-orange: rgb(255, 159, 10);
+  --color-pink: rgb(255, 55, 95);
+  --color-purple: rgb(191, 90, 242);
+  --color-red: rgb(255, 69, 58);
+  --color-teal: rgb(100, 210, 255);
+  --color-yellow: rgb(255, 214, 10);
+  --color-gray-1: rgb(142, 142, 147);
+  --color-gray-2: rgb(99, 99, 102);
+  --color-gray-3: rgb(72, 72, 74);
+  --color-gray-4: rgb(58, 58, 60);
+  --color-gray-5: rgb(44, 44, 46);
+  --color-gray-6: rgb(28, 28, 30);
 }
 
 body.light {

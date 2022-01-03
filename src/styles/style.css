@@ -11,19 +11,27 @@
 .site-container {
     margin: auto;
     padding: auto;
-    max-width: 45rem;
+    margin: 0em 1em;
+    /* max-width: 45rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    max-width: 50rem;
 }
 
 /* Layout-Header */
 .header-container {
     display: flex;
     flex-wrap: nowrap;
-    margin: 0em 0.5em;   
+    /* margin: 0em 1em; */
+    width: 100%;
 }
 
 .header-container a {
     text-decoration: none;
-    color: inherit;
 }
 
 .header-container div::selection,
@@ -35,10 +43,14 @@
 .header-title {
     text-transform: uppercase;
     font-family: var(--font-title);
-    font-size: 2.75em;
+    /* font-size: 2.75em; */
+    font-size: 2.4375em;
     font-weight: 700;
     white-space: nowrap;
-    letter-spacing: 0em;
+    letter-spacing: -0.0625em;
+    margin-top: -0.5625rem;
+    /* margin-left: -0.5rem; */
+    color: rgb(217, 185, 166);
 }
 
 .header-description {
@@ -52,34 +64,28 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    /* justify-content: space-between; */
+    justify-content: space-between;
+    align-items: center;
     font-size: 0.875em;
+    font-weight: 500;
+    /* padding: 0rem 1rem; */
+    margin-left: 1rem;
 }
 
-.header-titles {
+.nav-container ul {
     list-style: none;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
     padding: 0em;
     margin: 0.25rem 0em;
 }
 
-.header-nav {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding: 0em;
-    margin: 0.25rem 0em;
-}
-
-.header-titles li {
-    margin-right: 0.25rem;
+.header-nav a {
+    color: inherit;
 }
 
 .header-nav li {
-    margin-left: 1.5em;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .tog-checkbox {
@@ -296,4 +302,24 @@ article .tag-container a {
 }
 .social-icon-path {
     fill: var(--color-font);
+}
+
+/* Index */
+/* bio card */
+.bio-card {
+    border-radius: 1em;
+    padding: 1.5em;
+    margin: 3em;
+    background-color: var(--color-postcard);
+}
+
+.bio-name {
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+    font-size: 2.5em;
+}
+
+.bio-info {
+    margin-top: 0em;
+    font-size: 1em;
 }
