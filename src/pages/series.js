@@ -15,12 +15,11 @@ const Index = ({ data }) => {
       <SEO title="Series"/>
       <article>
         <section style={{textAlign: "center"}}>
-        series 1
+        <h1>- Repairing -</h1><br/><br/>
         </section>
       </article>
       <article>
         <section style={{textAlign: "center"}}>
-        series 2
         </section>
       </article>
     </Layout>

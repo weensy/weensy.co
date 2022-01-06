@@ -32,13 +32,13 @@ const Index = ({ data }) => {
             Works
           </h4>
           <p>
-            works
+            - Repairing -
           </p>
           <h4>
-            Series
+            
           </h4>
           <p>
-            series
+            
           </p>
         </section>
       </article>
