@@ -303,6 +303,20 @@ article .tag-container a {
 .social-icon-path {
     fill: var(--color-font);
 }
+/* status card */
+.status-card {
+    letter-spacing: 0.125em;
+    margin: 6em 0em;
+}
+.status-card h4 {
+    margin: 0em;
+    font-size: 2em;
+    font-weight: 500;
+    /* font-style: italic; */
+}
+.status-card p {
+    margin: 0em 0em 0em 1.5em;
+}
 
 /* Index */
 /* bio card */
