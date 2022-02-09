@@ -61,6 +61,9 @@ const css = `
   :root {
     overflow-y: auto;
   }
+  body {
+    margin: 0em;
+  }
   .site-container {
     display: grid;
     place-items: center;
