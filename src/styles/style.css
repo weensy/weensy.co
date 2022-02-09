@@ -12,14 +12,14 @@
     margin: auto;
     padding: auto;
     margin: 0em 1em;
-    /* max-width: 45rem; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 main {
-    max-width: 50rem;
+    width: 100%;
+    max-width: 45rem;
 }
 
 /* Layout-Header */
@@ -28,6 +28,7 @@ main {
     flex-wrap: nowrap;
     /* margin: 0em 1em; */
     width: 100%;
+    max-width: 45rem;
 }
 
 .header-container a {
@@ -50,7 +51,7 @@ main {
     letter-spacing: -0.0625em;
     margin-top: -0.5625rem;
     /* margin-left: -0.5rem; */
-    color: rgb(217, 185, 166);
+    color: var(--color-id-3);
 }
 
 .header-description {
@@ -108,9 +109,9 @@ main {
 
 /* Postcard*/
 .post-card {
-    border: 0.0625em solid var(--color-postcard);
+    border: 0.0625em solid var(--color-card);
     border-radius: 0.3em;
-    box-shadow: 0 0.0625em 0.25em var(--color-postcard);
+    box-shadow: 0 0.0625em 0.25em var(--color-card);
     margin-top: 0.5em;
     margin-bottom: 1.5em;
     padding: 2em 1.5em;
@@ -168,7 +169,7 @@ main {
     width: 35%;
     border-radius: 0.625em;
     border: 0.0625em solid var(--color-font);
-    box-shadow: 0 0.0625em 0.25em var(--color-postcard);
+    box-shadow: 0 0.0625em 0.25em var(--color-card);
     padding: 0.8125em;
     font-family: inherit;
     color: inherit;
@@ -189,9 +190,9 @@ main {
 }
 
 .tag-archive-item {
-    border: 0.0625em solid var(--color-postcard);
+    border: 0.0625em solid var(--color-card);
     border-radius: 0.3em;
-    box-shadow: 0 0.0625em 0.25em var(--color-postcard);
+    box-shadow: 0 0.0625em 0.25em var(--color-card);
     margin: 0.5em;
     padding: 0.2em 0.6em;
     
@@ -318,29 +319,31 @@ article .tag-container a {
     margin: 0em 0em 0em 1.5em;
 }
 
-/* Index */
-/* bio card */
-.bio-card {
+/* Works */
+.works-container article{
+    background: var(--color-card);
     border-radius: 1em;
-    padding: 1.5em;
-    margin: 3em;
-    background-color: var(--color-postcard);
+    margin-top: 1em;
+    margin-bottom: 2em;
 }
-
-.bio-link {
+.works-container img {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.works-container a {
     text-decoration: none;
     color: inherit;
 }
-
-.bio-name {
-    margin-top: 0em;
-    margin-bottom: 0.5em;
-    font-size: 2.5em;
-    font-weight: 500;
+.works-container section {
+    padding: 1em;
+    padding-top: 0.5em;
 }
-
-.bio-info {
-    margin-top: 0em;
-    font-size: 1em;
-    font-weight: 100;
+.works-container h3 {
+    margin: 0em;
+    font-size: 2.125em;
+}
+.works-container h5 {
+    margin: 0em;
+    font-size: 1.25em;
+    font-weight: var(--font-light);
 }
