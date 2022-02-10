@@ -82,7 +82,6 @@ const css = `
     padding: 2.4em;
     width: 20em;
     background-color: var(--color-card);
-    margin-bottom: 0.1875em;
     cursor: default;
   }
   .bio-card div::selection,h1::selection,h6::selection {
@@ -133,6 +132,10 @@ const css = `
   .bio-card-button:hover {
     background: var(--color-id-3);
     color: var(--color-id-1);
+  }
+  .footer-copyright {
+    margin-top: 0.1875em;
+    margin-bottom: 0em;
   }
 `
 
