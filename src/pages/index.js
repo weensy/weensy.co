@@ -61,6 +61,11 @@ const css = `
   :root {
     overflow-y: auto;
   }
+  @media (max-width: 400px) {
+    :root {
+      font-size: 12px
+    }
+  }
   body {
     margin: 0em;
   }
