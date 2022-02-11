@@ -63,6 +63,11 @@ const css = `
   }
   @media (max-width: 400px) {
     :root {
+      font-size: 14px
+    }
+  }
+  @media (max-width: 348px) {
+    :root {
       font-size: 12px
     }
   }
@@ -76,6 +81,12 @@ const css = `
     width: 100vw;
     height: 100vh;
     margin: 0em;
+  }
+  /* iOS only */
+  @supports (-webkit-touch-callout: none) {
+    .site-container {
+      height: -webkit-fill-available;
+    }
   }
   .index-container {
     display: flex;
