@@ -30,6 +30,7 @@ const AboutPage = ({ data }) => {
             </h4>
           </div>
         </div>
+        <div style={{display:"flex",justifyContent:"center"}}>
         <section style={{maxWidth:"40em"}}>
           <h4 style={{marginTop:"0em"}}>
             Hello, there! 👋
@@ -42,6 +43,7 @@ const AboutPage = ({ data }) => {
             Therefore, it may be different from the facts or it may contain a strong opinion of mine. Also, I do not monetize my blog.
           </p>
         </section>
+        </div>
         <div>
           <p style={{textAlign: "center",margin: "4em 0em 5em 0em"}}>
             <ul className="social-links">
