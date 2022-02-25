@@ -323,3 +323,33 @@ article .tag-container a {
     font-size: 1.25em;
     font-weight: var(--font-light);
 }
+.button-box {
+    display: flex;
+    justify-content: center;
+    gap: 0.3em;
+}
+.button-box a {
+    text-decoration: none;
+    color: inherit;
+}
+.button-demo {
+    background: var(--color-id-3);
+    border-color: var(--color-id-3);
+    padding: 0.25em 1em;
+    border-radius: 0.375em;
+    text-align: center;
+    color: var(--color-bg);
+    border-width: 0.1em;
+    border-style: solid;
+    width: 5em;
+}
+.button-repo {
+    border-color: var(--color-id-3);
+    border-width: 0.1em;
+    border-style: solid;
+    padding: 0.25em 1em;
+    border-radius: 0.375em;
+    text-align: center;
+    color: var(--color-id-3);
+    width: 5em;
+}
