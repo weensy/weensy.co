@@ -37,7 +37,7 @@ const Index = ({ data }) => {
             <Link className="bio-link" to={`/works`}>
               <div className="bio-card-button">works</div>
             </Link>
-            <Link className="bio-link" to={`/blog`}>
+            <Link className="bio-link" to={`/posts`}>
               <div className="bio-card-button">blog</div>
             </Link>
           </div>
