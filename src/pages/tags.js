@@ -15,9 +15,16 @@ const TagIndex = ({ data }) => {
   
   return (
     <Layout title={siteTitle} description={siteDescription}>
-      <SEO
-        title="Tags"
-      />
+      <SEO title="Tags"/>
+      <div className="blog-nav">
+        <Link to={`/posts`}>
+          <div className="blog-nav-deactivated">Posts</div>
+        </Link>
+        <div className="blog-nav-activated">Tags</div>
+        <Link to={`/series`}>
+          <div className="blog-nav-deactivated">Series</div>
+        </Link>
+      </div>
       <hr className="contour"/>
       <div className="tag-archive-container">
         {tags.map( tag => {

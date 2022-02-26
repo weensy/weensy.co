@@ -131,6 +131,7 @@ main {
 }
 .tag-item {
     margin-right: 0.375em;
+    font-size: 0.875em;
 }
 .post-header {
     text-align: center;
@@ -358,4 +359,27 @@ article .tag-container a {
     text-align: center;
     color: var(--color-id-3);
     width: 5em;
+}
+
+/* Blog */
+.blog-nav {
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin: 1em 0em;
+}
+.blog-nav a {
+    text-decoration: none;
+}
+.blog-nav div::selection {
+    background-color: transparent;
+}
+.blog-nav-activated {
+    color: var(--color-id-3);
+    border-bottom: 0.125em solid;
+    cursor: default;
+}
+.blog-nav-deactivated {
+    color: var(--color-id-2);
 }
