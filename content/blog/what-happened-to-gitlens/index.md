@@ -5,14 +5,14 @@ tags: [gitlens,vscode,extention]
 thumbnail: ./gitlens-logo-anybg.png
 ---
 #### Today I updated Gitlens.
-Then, an icon appeared in the activity bar(\*1). I didn't like it very much, but I passed.  
+Then, an icon appeared in the activity bar(\*1). I didn't like it very much, but I passed. 😤  
 However, I found that something I had never installed(\*2). Since the publisher is GitKraken, it was probably installed due to an update in GitLens.
 
 ![Extensions](./extensions.png)
 
 #### I immediately uninstalled this.
 And returned the version of GitLens to 11.7.0.  
-I went straight to the marketplace and checked everyone's reactions. Everyone was angry.
+I went straight to the marketplace and checked everyone's reactions. Everyone was angry. 🤬
 
 ![Reviews](./reviews.png)
 
