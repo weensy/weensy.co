@@ -7,7 +7,7 @@ class Layout extends Component {
 
     return (
       <div className="site-container">
-        {mode != "footer-only" && 
+        {mode !== "footer-only" && 
           <div className="header-container">
             <Link
               className="header-title"

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
@@ -7,15 +7,17 @@
 
   /* Fonts */
   --font-title: 'Pacifico', monospace;
-  --font-sans-serif: 'Noto Sans KR', sans-serif;
+  --font-sans-serif: 'Open Sans', 'Noto Sans', sans-serif;
   --font-serif: serif;
   --font-mono: 'IBM Plex Mono', monospace;
-  --font-thin: 100;
+  /* --font-thin: 100; */
   --font-light: 300;
-  --font-normal: 400;
+  --font-regular: 400;
   --font-medium: 500;
+  --font-semibold: 600;
   --font-bold: 700;
-  --font-heavy: 900;
+  --font-extrabold: 800;
+  /* --font-heavy: 900; */
 
   --color-bg: rgb(28, 28, 30);
   --color-font: rgb(255, 255, 255);

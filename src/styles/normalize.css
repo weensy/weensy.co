@@ -1,11 +1,9 @@
 body {
     font-family: var(--font-sans-serif);
-    /* font-weight: var(--font-thin); */
     font-weight: var(--font-light);
     background-color: var(--color-bg);
     color: var(--color-font);
     caret-color: var(--color-font);
-    /* transition: color, background-color 0.5s ease 0s; */
     letter-spacing: -0.0125em;
     margin: 0em;
 }

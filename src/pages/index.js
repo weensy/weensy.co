@@ -21,9 +21,9 @@ const Index = ({ data }) => {
           <div className="bio-card-top">
             <div>
               <h1 className="bio-name">Weensy</h1>
-              <h6 className="bio-info">self-taught problem solver 💡</h6>
-              <h6 className="bio-info">open-source developer 💻</h6>
-              <h6 className="bio-info">keyboard lover 💜</h6>
+              <h6 className="bio-info">self-taught problem solver <span role="img" aria-label="light bulb">💡</span></h6>
+              <h6 className="bio-info">open-source developer <span role="img" aria-label="laptop">💻</span></h6>
+              <h6 className="bio-info">keyboard lover <span role="img" aria-label="purple heart">💜</span></h6>
             </div>
             <Link className="bio-link" to={`/about`}>
               <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 122.88 122.88" xmlSpace="preserve">
