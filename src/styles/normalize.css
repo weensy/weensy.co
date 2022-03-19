@@ -10,6 +10,9 @@ body {
 ::selection {
     background-color: var(--color-id-3);
 }
+a {
+    color: var(--color-teal)
+}
 p {
     line-height: 1.75em;
 }
