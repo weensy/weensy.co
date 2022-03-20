@@ -95,7 +95,7 @@ export const pageQuery = graphql`
             description
             thumbnail {
               childImageSharp {
-                fluid(maxWidth: 670, maxHeight: 200, cropFocus: CENTER) {
+                fluid(maxWidth: 1344, maxHeight: 400, cropFocus: CENTER) {
                   src
                   originalName
                 }
