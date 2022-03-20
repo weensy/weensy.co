@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "weensy.co",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "A personal blog",
+  "version": "1.0.0",
+  "author": "Weensy Kim <hello@weensy.co>",
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/weensy/weensy.co/issues"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
