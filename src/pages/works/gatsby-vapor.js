@@ -16,10 +16,10 @@ const AboutPage = ({ data }) => {
       <h1 style={{textAlign:"center", fontSize:"3em"}}>VAPOR</h1>
       <p style={{textAlign:"center"}}>A custom, simple blog starter with Gatsby. Made for minimalist.</p>
       <div className="button-box">
-        <a href="https://gatsby-vapor.weensy.co" target="_blank">
+        <a href="https://gatsby-vapor.weensy.co" target="_blank" rel="noreferrer">
           <div className="button-demo">Demo site</div>  
         </a>
-        <a href="https://github.com/weensykim/gatsby-vapor" target="_blank">
+        <a href="https://github.com/weensy/gatsby-vapor" target="_blank" rel="noreferrer">
           <div className="button-repo">Repository</div>  
         </a>
       </div>
@@ -145,8 +145,8 @@ const indexQuery = graphql`
 
 
 const css = `
-  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap');
-  @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
+  // @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i&display=swap');
+  // @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap');
   .norm-box {
     font-family: 'Open Sans', sans-serif;
     background-color: rgba(255, 255, 255, 0.9);
