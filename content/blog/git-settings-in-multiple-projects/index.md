@@ -1,7 +1,8 @@
 ---
 title: Git settings in multiple projects
 date: "2019-11-22"
-tags: [Devlog, git, setting, note]
+tags: [git, setting, note]
+idx: ture
 ---
 
 If you using git, maybe you were set `user.name` and `user.email`.

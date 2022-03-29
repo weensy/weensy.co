@@ -1,7 +1,8 @@
 ---
 title: "What is GraphQL?"
 date: "2019-10-15T03:09:00.000Z"
-tags: [Devlog, graphql, facebook, query]
+tags: [graphql, facebook, query]
+idx: ture
 ---
 
 ## Query language

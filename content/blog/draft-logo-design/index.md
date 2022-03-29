@@ -1,7 +1,8 @@
 ---
 title: Draft logo design
 date: "2019-11-20"
-tags: [Devlog, draft, logo, design]
+tags: [draft, logo, design]
+idx: ture
 ---
 
 1.

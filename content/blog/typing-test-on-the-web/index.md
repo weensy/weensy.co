@@ -1,7 +1,8 @@
 ---
 title: Typing test on the web
 date: "2021-02-07"
-tags: [Devlog,typing,keyboard]
+tags: [typing,keyboard]
+idx: ture
 ---
 
 ### monkeytype

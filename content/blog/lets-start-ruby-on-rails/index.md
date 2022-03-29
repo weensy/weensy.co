@@ -1,7 +1,8 @@
 ---
 title: Let's start Ruby on Rails
 date: "2020-06-29"
-tags: [Devlog, hello, ruby, rails]
+tags: [hello, ruby, rails]
+idx: ture
 ---
 
 ## Install

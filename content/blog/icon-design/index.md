@@ -1,7 +1,8 @@
 ---
 title: Icon Design
 date: "2019-11-25"
-tags: [Devlog, design, icon, logo]
+tags: [design, icon, logo]
+idx: ture
 ---
 
 ## V1

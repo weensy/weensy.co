@@ -1,7 +1,8 @@
 ---
 title: Create an online store with Rails
 date: "2020-07-03"
-tags: [Devlog, rails, shop, store]
+tags: [rails, shop, store]
+idx: ture
 ---
 
 ## Introduction

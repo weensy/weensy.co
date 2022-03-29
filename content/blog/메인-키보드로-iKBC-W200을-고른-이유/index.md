@@ -1,7 +1,7 @@
 ---
 title: 메인 키보드로 iKBC W200을 고른 이유
 date: "2020-10-30"
-tags: [Essay,취미,기계식 키보드]
+tags: [취미,기계식 키보드]
 thumbnail: ./w200brown.png
 ---
 

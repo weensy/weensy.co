@@ -1,8 +1,9 @@
 ---
 title: XLR8R - Excelerator
 date: "2019-11-29"
-tags: [Devlog, excel, add-in, tool]
+tags: [excel, add-in, tool]
 description: The add-in for Microsoft Excel. It will accelerate your documentation.
+idx: ture
 ---
 
 ## Overview

@@ -1,8 +1,9 @@
 ---
 title: What is Ruby?
 date: "2020-06-26"
-tags: [Devlog, ruby, programming, language]
+tags: [ruby, programming, language]
 thumbnail: ./Ruby_On_Rails_Logo.png
+idx: ture
 ---
 
 ### Introduction

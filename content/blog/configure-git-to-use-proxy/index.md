@@ -1,7 +1,8 @@
 ---
 title: "Configure git to use proxy"
 date: "2019-10-15"
-tags: [Devlog, git,proxy,vscode]
+tags: [git,proxy,vscode]
+idx: ture
 ---
 
 ### How to check the proxy of your workshop

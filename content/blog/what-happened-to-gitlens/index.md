@@ -3,6 +3,7 @@ title: What happened to GitLens?
 date: "2022-03-03"
 tags: [gitlens,vscode,extention]
 thumbnail: ./gitlens-logo-anybg.png
+idx: ture
 ---
 #### Today I updated Gitlens.
 Then, an icon appeared in the activity bar(\*1). I didn't like it very much, but I passed. 😤  

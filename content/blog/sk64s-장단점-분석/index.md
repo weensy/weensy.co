@@ -1,7 +1,7 @@
 ---
 title: SK64S 장단점 알아보기
 date: "2020-12-12"
-tags: [Essay,취미,기계식 키보드]
+tags: [취미,기계식 키보드]
 thumbnail: ./thumbnail.png
 description: 두번째 기계식 키보드로 SKYLOONG사의 SK65S를 사보았다. 이 키보드를 고른 이유와 직접 써봤을 때의 장단점, 특징에 대해 간단히 기록해봄.
 ---

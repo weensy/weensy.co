@@ -1,7 +1,8 @@
 ---
 title: CSS priority
 date: "2019-11-18"
-tags: [Devlog, css, priority, rule]
+tags: [css, priority, rule]
+idx: ture
 ---
 
 <style>

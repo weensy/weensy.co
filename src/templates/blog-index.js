@@ -81,7 +81,11 @@ export const pageQuery = graphql`
         description
       }
     }
-    allMarkdownRemark(sort: {fields: frontmatter___date, order: DESC}, limit: 5, skip: $index) {
+    allMarkdownRemark(
+      filter: {frontmatter: {idx: {ne: null}}}
+      sort: {fields: frontmatter___date, order: DESC}
+      limit: 5, skip: $index
+    ) {
       edges {
         node {
           excerpt

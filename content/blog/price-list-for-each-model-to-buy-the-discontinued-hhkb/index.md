@@ -2,6 +2,7 @@
 title: Price list for each model to buy the discontinued HHKB
 date: "2021-03-17"
 tags: [hhkb,keyboard]
+idx: ture
 ---
 #### Why did I research this
 1. Wireless models are annoying because the battery compartment protrudes. So I'm going to buy a wired model.

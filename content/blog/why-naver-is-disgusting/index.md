@@ -1,8 +1,9 @@
 ---
 title: Why Naver is disgusting
 date: "2019-11-21"
-tags: [Devlog, disgusting, naver, fake-blog]
+tags: [disgusting, naver, fake-blog]
 description: The news is that Line and Yahoo have decided to join hands in order to compete with Google, Amazon, Facebook and Apple. So I post my usual thoughts.
+idx: ture
 ---
 
 Naver is a search engine and web portal in Korea.  

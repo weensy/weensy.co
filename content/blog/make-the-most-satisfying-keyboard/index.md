@@ -1,8 +1,9 @@
 ---
 title: Make the most satisfying keyboard
 date: "2020-12-15"
-tags: [Devlog,keyboard]
+tags: [keyboard]
 description: I have never liked 100% while looking at the keyboards on the market. In the end, I decided to try making my own keyboard. And this is the first post logging the process.
+idx: ture
 ---
 
 <div style="text-align:right;font-size:0.875em;font-weight:100">

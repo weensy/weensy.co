@@ -1,7 +1,8 @@
 ---
 title: Domain ".io" Price comparison
 date: "2019-10-31"
-tags: [Devlog, domain,price,comparison]
+tags: [domain,price,comparison]
+idx: ture
 ---
 #### 1. Namecheap
 https://www.namecheap.com

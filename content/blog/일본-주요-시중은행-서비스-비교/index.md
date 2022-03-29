@@ -1,7 +1,7 @@
 ---
 title: 일본 주요 시중은행 서비스 비교
 date: "2021-01-17"
-tags: [Essay,일본생활, 은행]
+tags: [일본생활, 은행]
 ---
 <style>
     .highlighter {

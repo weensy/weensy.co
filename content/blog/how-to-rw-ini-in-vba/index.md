@@ -1,7 +1,8 @@
 ---
 title: How to R/W .ini in VBA
 date: "2019-11-19"
-tags: [Devlog, vba, ini, code]
+tags: [vba, ini, code]
+idx: ture
 ---
 
 ## Code

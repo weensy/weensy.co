@@ -52,7 +52,7 @@ const indexQuery = graphql`
         description
       }
     }
-    allMarkdownRemark {
+    allMarkdownRemark(filter: {frontmatter: {idx: {ne: null}}}) {
       distinct(field: frontmatter___tags)
     }
   }

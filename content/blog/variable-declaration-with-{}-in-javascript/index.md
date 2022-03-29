@@ -1,8 +1,9 @@
 ---
 title: Variable declaration with "{}" in JavaScript
 date: "2019-10-29"
-tags: [Devlog, declaration,variable,javascript]
+tags: [declaration,variable,javascript]
 description: I saw a code I don't know like "const { props } = this". What is "{}" mean?
+idx: ture
 ---
 It is one of syntax in "destructuring assignment" in JavaScript ES6.
 

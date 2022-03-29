@@ -1,8 +1,9 @@
 ---
 title: Let's start Ruby on Rails - 2
 date: "2020-07-01"
-tags: [Devlog, hello, ruby, rails]
+tags: [hello, ruby, rails]
 thumbnail: ./onRails.png
+idx: ture
 ---
 
 ## Make new application

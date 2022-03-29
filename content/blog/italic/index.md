@@ -1,7 +1,8 @@
 ---
 title: How does CSS work in font without italic?
 date: "2019-11-05"
-tags: [Devlog, css,italic,font-family]
+tags: [css,italic,font-family]
+idx: ture
 ---
 
 <style>

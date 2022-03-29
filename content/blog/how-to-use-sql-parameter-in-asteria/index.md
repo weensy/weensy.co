@@ -1,7 +1,8 @@
 ---
 title: How to use SQL parameter in Asteria
 date: "2019-10-30"
-tags: [Devlog, sql-parameter,asteria,syntax]
+tags: [sql-parameter,asteria,syntax]
+idx: ture
 ---
 There are two ways to use.
 * To Parameter

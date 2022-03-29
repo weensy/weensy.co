@@ -1,7 +1,8 @@
 ---
 title: "What is Ajax?"
 date: "2019-09-17"
-tags: [Devlog, javascript,ajax,asynchronous]
+tags: [javascript,ajax,asynchronous]
+idx: ture
 ---
 
 > **Asynchronous Javascript And Xml**

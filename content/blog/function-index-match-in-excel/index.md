@@ -1,7 +1,8 @@
 ---
 title: "Function Index-Match in Excel"
 date: "2019-10-18T03:11:00.000Z"
-tags: [Devlog, excel,function,index-match]
+tags: [excel,function,index-match]
+idx: ture
 ---
 
 You can use a combination of index and match instead of vlookup.  

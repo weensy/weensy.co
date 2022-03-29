@@ -1,7 +1,8 @@
 ---
 title: What is HSTS?
 date: "2019-12-05"
-tags: [Devlog, hsts, http, security]
+tags: [hsts, http, security]
+idx: ture
 ---
 
 > HTTP Strict Transport Security

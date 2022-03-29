@@ -12,7 +12,30 @@ exports.createPages = async ({ graphql, actions }) => {
     `
       {
         allMarkdownRemark(
+          filter: {frontmatter: {idx: {ne: null}}}
           sort: { fields: [frontmatter___date], order: DESC }
+          limit: 1000
+        ) {
+          edges {
+            node {
+              fields {
+                slug
+              }
+              frontmatter {
+                title
+                tags
+              }
+            }
+          }
+        }
+      }
+    `
+  )
+  const unindexed = await graphql(
+    `
+      {
+        allMarkdownRemark(
+          filter: {frontmatter: {idx: {eq: null}}}
           limit: 1000
         ) {
           edges {
@@ -34,9 +57,13 @@ exports.createPages = async ({ graphql, actions }) => {
   if (result.errors) {
     throw result.errors
   }
+  if (unindexed.errors) {
+    throw unindexed.errors
+  }
 
   // Create blog posts pages.
   const posts = result.data.allMarkdownRemark.edges
+  const unindexedPosts = unindexed.data.allMarkdownRemark.edges
   const tagSet = new Set();
 
   posts.forEach((post, index) => {
@@ -82,6 +109,15 @@ exports.createPages = async ({ graphql, actions }) => {
       });
     });
 
+  })
+  unindexedPosts.forEach((post, index) => {
+    createPage({
+      path: post.node.fields.slug,
+      component: blogPost,
+      context: {
+        slug: post.node.fields.slug,
+      },
+    })
   })
 }
 

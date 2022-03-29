@@ -1,7 +1,8 @@
 ---
 title: A new concept design project
 date: "2020-03-19"
-tags: [Devlog, design, concept, trackpad]
+tags: [design, concept, trackpad]
+idx: ture
 ---
 
 ## Tentative Title

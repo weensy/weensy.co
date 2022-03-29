@@ -1,8 +1,9 @@
 ---
 title: London After Midnight - Gatsby Starter
 date: "2019-11-05"
-tags: [Devlog, gatsby,starter,london]
+tags: [gatsby,starter,london]
 description: The theme of this blog. This is built with Gatsby.
+idx: ture
 ---
 
 <h1 align="center">

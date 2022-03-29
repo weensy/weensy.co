@@ -1,7 +1,8 @@
 ---
 title: "Appending in JavaScript"
 date: "2019-09-13"
-tags: [Devlog, javascript,append,textnode]
+tags: [javascript,append,textnode]
+idx: ture
 ---
 
 Create text node on document

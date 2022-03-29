@@ -1,7 +1,8 @@
 ---
 title: "Logical operators in JavaScript"
 date: "2019-10-23"
-tags: [Devlog, javascript,logical-operators,syntax]
+tags: [javascript,logical-operators,syntax]
+idx: ture
 ---
 <table>
   <thead>
