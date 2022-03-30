@@ -1,6 +1,7 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
 import Img from "gatsby-image"
+import Utterances from "utterances-react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -48,6 +49,15 @@ class BlogPostTemplate extends React.Component {
           <Tags tags={post.frontmatter.tags}/>
         </article>
         <hr className="contour"/>
+        <Utterances
+          repo="weensy/weensy.co"
+          issueTerm="og:title"
+          label=""
+          theme="github-dark"
+          crossorigin="anonymous"
+          async={false}
+          style={``}
+        />  
         <nav>
           <ul className="post-nav">
             <li>
