@@ -8,7 +8,7 @@ idx: ture
 
 <div style="text-align:right;font-size:0.875em;font-weight:100">
 
-  [Read this post in Korean](./kr/)
+  [Read this post in Korean](./ko/)
 </div>
 
 ### The necessity of an aesthetically perfect keyboard
