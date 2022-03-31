@@ -2,6 +2,7 @@
 title: What is Salesforce Commerce Cloud?🧐
 date: "2021-10-21"
 tags: [salesforce, saas, crm]
+ids: ture
 ---
 
 ## ☁️Salesforce Commerce Cloud
