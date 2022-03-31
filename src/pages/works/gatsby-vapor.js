@@ -244,6 +244,7 @@ const css = `
     color: rgba(255, 255, 255, 0.9);
     border-radius: 0.25em;
     padding: 0em 0.1875em;
+    font-size: 1em !important;
   }
   .norm-box pre code {
     padding: 0em;
