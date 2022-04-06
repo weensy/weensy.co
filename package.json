@@ -34,15 +34,15 @@
   "devDependencies": {
     "prettier": "^1.19.1"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "homepage": "https://weensy.co",
   "keywords": [
-    "gatsby"
+    "blog"
   ],
-  "license": "MIT",
+  "license": "UNLICENSED",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/weensy/weensy.co.git"
   },
   "scripts": {
     "build": "gatsby build",
