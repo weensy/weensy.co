@@ -31,17 +31,14 @@ const Layout = props => {
             </ul>
           </div>
           <div className={`header-burger ${toggleNav ? `header-burger-opened` : ``}`}>
-            <div
+            <button
               className="hamburger hamburger--collapse"
-              aria-label="Menu"
-              role="button"
-              aria-controls="navigation"
               onClick={() => setToggleNav(!toggleNav)}
             >
               <div className="hamburger-box">
                 <div className="hamburger-inner" />
               </div>
-            </div>
+            </button>
           </div>
         </div>
       }
