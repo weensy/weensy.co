@@ -50,6 +50,11 @@ main {
     /* margin-left: -0.5rem; */
     color: var(--color-id-3);
 }
+@supports (-webkit-touch-callout: none) {
+    .header-title {
+        font-weight: 800;
+    }
+}
 .header-description {
     font-size: 0.9375rem;
     font-weight: 100;
