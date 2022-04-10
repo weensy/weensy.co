@@ -24,7 +24,7 @@ const Index = ({ data }) => {
       </div>
       <article>
         <section style={{textAlign: "center"}}>
-        <h1>- Repairing -</h1><br/><br/>
+        <h1>- Soon -</h1><br/><br/>
         </section>
       </article>
       <article>
