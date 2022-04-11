@@ -118,7 +118,7 @@ main {
     margin: 0;
 }
 .burger-menu li {
-    display: block;
+    display: none;
     opacity: 0;
     font-size: 1.5em;
     padding: 0 1rem;
@@ -135,6 +135,9 @@ main {
     background: transparent;
 }
 @media (max-width: 480px) {
+    .burger-menu li {
+        display: block;
+    }
     .burger-menu-opened {
         height: 12em;
     }
