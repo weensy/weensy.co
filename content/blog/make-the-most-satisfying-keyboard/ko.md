@@ -5,10 +5,10 @@ tags: [keyboard]
 description: 시중에 나와있는 키보드들을 보면서 100% 마음에 들었던 적이 없던 나. 결국, 키보드를 직접 만들어 보기로 결심하게 되었다. 그리고 그 과정을 기록해 나갈 첫번째 포스트.
 ---
 
-<div style="text-align:right;font-size:0.875em;font-weight:100">
+<!-- <div style="text-align:right;font-size:0.875em;font-weight:100">
 
   [이 포스트 영어로 보기](../)
-</div>
+</div> -->
 
 ### 미적으로 완벽한 키보드의 필요성
 키보드는 여러 레이아웃이 존재한다. 당신은 어떤 레이아웃의 키보드를 쓰고 있는가? 키보드에 별로 관심이 없다면 풀배열의 키보드를 사용하고 있을 것이다.  

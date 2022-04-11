@@ -6,10 +6,10 @@ description: I have never liked 100% while looking at the keyboards on the marke
 idx: ture
 ---
 
-<div style="text-align:right;font-size:0.875em;font-weight:100">
+<!-- <div style="text-align:right;font-size:0.875em;font-weight:100">
 
   [Read this post in Korean](./ko/)
-</div>
+</div> -->
 
 ### The necessity of an aesthetically perfect keyboard
 There are several layouts for the keyboard. What layout of the keyboard are you using? If you're not interested in keyboards, you're probably using a Full size keyboard.  
