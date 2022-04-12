@@ -47,7 +47,7 @@ const AboutPage = ({ data }) => {
         <div>
           <p style={{textAlign: "center",margin: "4em 0em 5em 0em"}}>
             <ul className="social-links">
-            <li><a href="mailto:hello@weensy.co">
+            <li><a href="mailto:hello@weensy.dev">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="44px" height="44px" viewBox="0 0 44 44" version="1.1">
                   <defs>
                     <circle xmlns="http://www.w3.org/2000/svg" id="path" cx="22" cy="22" r="22"/>

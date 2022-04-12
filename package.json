@@ -1,11 +1,11 @@
 {
-  "name": "weensy.co",
+  "name": "weensy.dev",
   "private": true,
   "description": "A personal blog",
   "version": "1.0.0",
-  "author": "Weensy Kim <hello@weensy.co>",
+  "author": "Weensy Kim <hello@weensy.dev>",
   "bugs": {
-    "url": "https://github.com/weensy/weensy.co/issues"
+    "url": "https://github.com/weensy/weensy.dev/issues"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
@@ -34,7 +34,7 @@
   "devDependencies": {
     "prettier": "^2.6.2"
   },
-  "homepage": "https://weensy.co",
+  "homepage": "https://weensy.dev",
   "keywords": [
     "blog"
   ],
@@ -42,7 +42,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/weensy/weensy.co.git"
+    "url": "git+https://github.com/weensy/weensy.dev.git"
   },
   "scripts": {
     "build": "gatsby build",

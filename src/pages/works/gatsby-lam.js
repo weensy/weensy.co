@@ -17,7 +17,7 @@ const AboutPage = ({ data }) => {
       <h1 style={{textAlign:"center", fontSize:"3em"}}>London After Midnight</h1>
       <p style={{textAlign:"center"}}>A custom, image-centric theme for Gatsby. </p>
       <div className="button-box">
-        <a href="https://gatsby-lam.weensy.co" target="_blank" rel="noreferrer">
+        <a href="https://gatsby-lam.weensy.dev" target="_blank" rel="noreferrer">
           <div className="button-demo">Demo site</div>  
         </a>
         <a href="https://github.com/weensy/gatsby-london-after-midnight" target="_blank" rel="noreferrer">

@@ -50,7 +50,7 @@ class BlogPostTemplate extends React.Component {
         </article>
         <hr className="contour"/>
         <Utterances
-          repo="weensy/weensy.co"
+          repo="weensy/weensy.dev"
           issueTerm="og:title"
           label=""
           theme="github-dark"

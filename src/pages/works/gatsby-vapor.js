@@ -16,7 +16,7 @@ const AboutPage = ({ data }) => {
       <h1 style={{textAlign:"center", fontSize:"3em"}}>VAPOR</h1>
       <p style={{textAlign:"center"}}>A custom, simple blog starter with Gatsby. Made for minimalist.</p>
       <div className="button-box">
-        <a href="https://gatsby-vapor.weensy.co" target="_blank" rel="noreferrer">
+        <a href="https://gatsby-vapor.weensy.dev" target="_blank" rel="noreferrer">
           <div className="button-demo">Demo site</div>  
         </a>
         <a href="https://github.com/weensy/gatsby-vapor" target="_blank" rel="noreferrer">

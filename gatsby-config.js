@@ -9,7 +9,7 @@ module.exports = {
     title: `₩€€₦$¥`,
     author: `Weensy Kim`,
     description: `An essay by a Korean developer living in Japan`,
-    siteUrl: `https://weensy.co/`,
+    siteUrl: `https://weensy.dev/`,
     social: {
     },
   },
