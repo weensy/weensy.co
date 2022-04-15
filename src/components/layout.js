@@ -12,7 +12,8 @@ const Layout = props => {
             className="header-title"
             to={`/`}
           >
-            {title}
+            {/* {title} */}
+            ₩€€₦$¥
           </Link>
           <div className="nav-container">
             <ul className="header-nav">
