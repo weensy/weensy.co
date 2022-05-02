@@ -107,7 +107,7 @@ const AboutPage = ({ data }) => {
                   </g>
                 </svg>
               </a></li>
-              <li><a href="https://linkedin.com/in/woonjin-kim" target="_blank" rel="noopener noreferrer">
+              {/* <li><a href="https://linkedin.com/in/woonjin-kim" target="_blank" rel="noopener noreferrer">
                 <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" width="44px" height="44px" viewBox="0 0 44 44" version="1.1">
                   <defs>
                     <circle xmlns="http://www.w3.org/2000/svg" id="path" cx="22" cy="22" r="22"/>
@@ -126,7 +126,7 @@ const AboutPage = ({ data }) => {
                     </g>
                   </g>
                 </svg>
-              </a></li>
+              </a></li> */}
             </ul>
           </p>
         </div>
