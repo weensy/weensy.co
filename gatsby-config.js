@@ -71,8 +71,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `₩€€₦$¥`,
-        short_name: `₩€€₦$¥`,
+        name: `Weensy`,
+        short_name: `Weensy`,
         start_url: `/`,
         display: `minimal-ui`,
         icon: `content/assets/icon.png`,
