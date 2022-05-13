@@ -34,15 +34,17 @@ const Index = ({ data }) => {
             </Link>
           </article>
           <article className="works-translations">
-            <h1>✍️Translations</h1>
-            <section>
-              <img src="https://maccy.app/img/maccy/Logo.png" alt="logo"/>
-              <div>
-                <h3>Maccy</h3>
-                <h6>Clipboard manager for macOS</h6>
-                <h5>Translate to Ja🇯🇵 {'&'} Ko🇰🇷</h5>
-              </div>
-            </section>
+            <h1><span role="img" aria-label="writing hand">✍️</span>Translations</h1>
+            <a href="https://maccy.app/" target="_blank" rel="noopener noreferrer">
+              <section>
+                <img src="https://maccy.app/img/maccy/Logo.png" alt="logo"/>
+                <div>
+                  <h3>Maccy</h3>
+                  <h6>Clipboard manager for macOS</h6>
+                  <h5>Translate to Ja<span role="img" aria-label="flag of japan">🇯🇵</span> {'&'} Ko<span role="img" aria-label="flag of south korea">🇰🇷</span></h5>
+                </div>
+              </section>
+            </a>
           </article>
           {/* <article>
             <Img fluid={data.gatsbyLam.childImageSharp.fluid}/>

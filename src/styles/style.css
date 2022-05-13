@@ -393,6 +393,7 @@ article .tag-container a {
 }
 .works-translations section {
     display: flex;
+    padding-top: 1em;
 }
 .works-translations img {
     width: 5em;
@@ -400,8 +401,11 @@ article .tag-container a {
 }
 .works-translations h1 {
     margin: 0em;
-    padding: 3rem 1rem 2rem 1rem;
+    padding: 3rem 1rem 3rem 1rem;
     text-align: center;
+    background: var(--color-id-2);
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 .works-translations h3 {
     display: inline-block;
