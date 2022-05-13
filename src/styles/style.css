@@ -391,6 +391,34 @@ article .tag-container a {
     font-size: 1.25em;
     font-weight: var(--font-light);
 }
+.works-translations section {
+    display: flex;
+}
+.works-translations img {
+    width: 5em;
+    height: 5em;
+}
+.works-translations h1 {
+    margin: 0em;
+    padding: 3rem 1rem 2rem 1rem;
+    text-align: center;
+}
+.works-translations h3 {
+    display: inline-block;
+    font-weight: var(--font-semibold);
+}
+.works-translations h5 {
+    color: var(--color-id-5);
+}
+.works-translations h6 {
+    margin: 0em;
+    margin-left: 0.25em;
+    color: var(--color-id-4);
+    font-size: 1em;
+    font-weight: var(--font-light);
+    display: inline-block;
+    font-style: italic;
+}
 .button-box {
     display: flex;
     justify-content: center;
