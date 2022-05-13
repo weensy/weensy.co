@@ -390,6 +390,7 @@ article .tag-container a {
     margin: 0em;
     font-size: 1.25em;
     font-weight: var(--font-light);
+    color: var(--color-id-5);
 }
 .works-translations section {
     display: flex;
@@ -412,7 +413,7 @@ article .tag-container a {
     font-weight: var(--font-semibold);
 }
 .works-translations h5 {
-    color: var(--color-id-5);
+    /* color: var(--color-id-5); */
 }
 .works-translations h6 {
     margin: 0em;
