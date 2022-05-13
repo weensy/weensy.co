@@ -407,13 +407,11 @@ article .tag-container a {
     background: var(--color-id-2);
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
+    color: var(--color-gray-6);
 }
 .works-translations h3 {
     display: inline-block;
     font-weight: var(--font-semibold);
-}
-.works-translations h5 {
-    /* color: var(--color-id-5); */
 }
 .works-translations h6 {
     margin: 0em;
